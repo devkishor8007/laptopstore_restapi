@@ -24,19 +24,19 @@ exports.getAllProduct = async (req, res) => {
   // price and rating filtering
   if (numericFilter) {
     const opratorMap = {
-      ">": "$ge",
+      ">": "$gt",
       ">=": "$gte",
-      "<": "$lt",
       "=": "$eq",
+      "<": "$lt",
       "<=": "$lte",
     };
-    const regEx = /\b(<|>|>=|<=|=)\b/g;
+    const regEx = /\b(<|>|=|<|<=)\b/g;
     let filters = numericFilter.replace(
       regEx,
       (match) => `-${opratorMap[match]}-`
     );
     const options = ["price", "rating"];
-    filters.split(",").forEach((item) => {
+    filters = filters.split(",").forEach((item) => {
       const [field, operator, value] = item.split("-");
       if (options.includes(field)) {
         queryObject[field] = { [operator]: Number(value) };
