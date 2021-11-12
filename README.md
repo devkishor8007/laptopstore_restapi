@@ -1,6 +1,6 @@
 # laptopstore_restapi
 
-Generally, I am following the MVC pattern to make the Laptop Store REST API using nodejs, expressjs and mongoDB [ BACKEND SERVER ] and also handles the error.
+Generally, I am following the MVC pattern to make the Laptop Store REST API using nodejs, expressjs and mongoDB [BACKEND SERVER] and handles the error.
 
 ## Installation
 
@@ -60,3 +60,7 @@ Before clone the repo, you must have node.js on your device.
 [MongoDB Docs](https://mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/)
 
 [MVC-Architecture Docs](https://www.geeksforgeeks.org/model-view-controllermvc-architecture-for-node-applications/)
+
+[CORS](https://www.npmjs.com/package/cors)
+
+[HELMET](https://www.npmjs.com/package/helmet)
