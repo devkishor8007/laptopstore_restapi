@@ -1,0 +1,125 @@
+[
+    {
+        "name": "dell xs 14",
+        "price": 7500,
+        "company": "dell",
+        "rating": 4
+    },
+    {
+        "name": "hp xepter 12",
+        "price": 7400,
+        "company": "hp",
+        "rating": 5
+    },
+    {
+        "name": "hp 15",
+        "price": 30956,
+        "company": "hp",
+        "rating": 4.9
+    },
+    {
+        "name": "acer aspir 13",
+        "price": 125000,
+        "company": "acer",
+        "rating": 4.8
+    },
+    {
+        "name": "hp 13",
+        "price": 40000,
+        "company": "hp",
+        "rating": 4.6
+    },
+    {
+        "name": "redmi one",
+        "price": 42500,
+        "company": "redmi",
+        "rating": 4.55
+    },
+    {
+        "name": "redmi two",
+        "price": 40233,
+        "company": "redmi"
+    },
+    {
+        "name": "samsung center",
+        "price": 59000,
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "redmi bench",
+        "price": 69939,
+        "featured": true,
+        "company": "redmi"
+    },
+    {
+        "name": "samsung gal1",
+        "price": 75800,
+        "company": "samsung"
+    },
+    {
+        "name": "samsung j2",
+        "price": 36955,
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "hp v121",
+        "price": 30064,
+        "company": "hp"
+    },
+    {
+        "name": "redmi h4",
+        "price": 69030,
+        "company": "redmi"
+    },
+    {
+        "name": "hp simplx",
+        "price": 109066,
+        "company": "hp"
+    },
+    {
+        "name": "acer nitro",
+        "price": 129000,
+        "company": "acer"
+    },
+    {
+        "name": "samsung v24",
+        "price": 150222,
+        "company": "samsung"
+    },
+    {
+        "name": "hp utopia",
+        "price": 79999,
+        "featured": true,
+        "company": "hp"
+    },
+    {
+        "name": "acer vase",
+        "price": 120055,
+        "featured": true,
+        "company": "acer"
+    },
+    {
+        "name": "redmi wooxn",
+        "price": 150241,
+        "company": "redmi"
+    },
+    {
+        "name": "redmi baj",
+        "price": 40000,
+        "company": "redmi"
+    },
+    {
+        "name": "samsung tx",
+        "price": 50523,
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "samsung prax",
+        "price": 59205,
+        "featured": true,
+        "company": "samsung"
+    }
+]
